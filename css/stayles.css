@@ -1,0 +1,145 @@
+body {
+  font-family: "Exo 2", sans-serif;
+  margin: 0;
+  min-width: 1352.67px;
+  max-width: 1352.66px;
+  background-color: #f2c140;
+}
+
+h1 {
+  font-family: "italianno", cursive;
+  text-align: center;
+  font-size: 50px;
+  /* текстаги харифла орасини очиш  letter-spacing: ;
+*/
+  letter-spacing: 20px;
+  /*  хамма харифлани загалавный ёзиб беради text-transform: uppercase;*/
+  text-transform: uppercase;
+  /* текст тегини чизиб беради text-decoration: underline; */
+}
+h2,
+h3 {
+  font-family: "gluten", cursive;
+  /* онга чапга буш жой булса отказишга clear: left; */
+}
+.fon {
+  width: 100%;
+}
+
+.top {
+  position: relative;
+}
+.gm {
+  z-index: 10;
+  transition: 1s;
+}
+.gm:hover {
+  width: 400px;
+  z-index: 100;
+}
+.man1 {
+  position: absolute;
+  width: 160px;
+  border-radius: 50%;
+  left: 60px;
+  top: 100px;
+}
+.man2 {
+  position: absolute;
+  width: 170px;
+  border-radius: 50%;
+  left: 312px;
+  top: 60px;
+}
+.man3 {
+  position: absolute;
+  width: 160px;
+  border-radius: 50%;
+  left: 160px;
+  bottom: 220px;
+}
+.man4 {
+  position: absolute;
+  width: 160px;
+  border-radius: 50%;
+  right: 400px;
+  top: 55px;
+}
+.man5 {
+  position: absolute;
+  width: 180px;
+  border-radius: 50%;
+  right: 210px;
+  top: 135px;
+}
+.man6 {
+  position: absolute;
+  width: 120px;
+  border-radius: 50%;
+  right: 75px;
+  top: 50px;
+}
+.man7 {
+  position: absolute;
+  width: 130px;
+  border-radius: 50%;
+  right: 90px;
+  bottom: 220px;
+}
+.big-img {
+  height: 100%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.to_left {
+  float: left;
+}
+.to_rite {
+  float: right;
+}
+.manber {
+  width: 80%;
+  margin: auto;
+  line-height: 30px;
+  height: 320px;
+  /* overflow ортикча тексти коринмаслилига жовоб беради */
+  overflow: auto;
+}
+.arrow {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 65px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+* {
+  scroll-behavior: smooth;
+}
+.bottom {
+  background-color: #eb9f0e;
+  padding: 40px 0px;
+  text-align: center;
+  margin-top: 100px;
+}
+.bottom p {
+  margin-top: 30px;
+  color: white;
+}
+.bottom a {
+  margin: auto 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.abaut {
+  text-align: center;
+  padding: 100px;
+}
+hr {
+  width: 100px;
+  border-style: none;
+  border-top: #eb9f0e dotted 10px;
+  margin: 100px auto;
+}
